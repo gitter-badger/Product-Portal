@@ -18,7 +18,21 @@ Now you can install the necessary dependencies for the project with
 npm install
 ```
 
+This command will install all the dependencies listed in package.json.
+
 You are now ready to go!
+
+## Run tests
+
+JavaScript tests are written with the [Jasmine](http://jasmine.github.io/2.4/introduction.html) syntax. This syntax provides tests that are easy to and maintain.
+
+Running karma tests can be done with
+
+```
+npm test
+```
+
+This activates a script that is set in the package.json file to run Karma and load your JavaScript test files.
 
 ## Project Details
 
