@@ -4,6 +4,7 @@
   "description": "A simple webshop",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "karma start karma.conf.js"
   },
   "devDependencies": {
@@ -16,5 +17,8 @@
     "type": "git",
     "url": "https://github.com/DanyDin1801/Product-Portal.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }

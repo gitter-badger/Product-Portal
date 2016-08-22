@@ -20,6 +20,15 @@ npm install
 
 This command will install all the dependencies listed in package.json.
 
+To run local server, run
+
+```
+node server.js
+```
+
+The default server is `http://localhost:3000`.
+
+
 You are now ready to go!
 
 ## Run tests
