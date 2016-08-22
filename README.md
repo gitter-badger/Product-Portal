@@ -1,21 +1,37 @@
 # Product-Portal
 
-<h2>Project Details</h2>
+## Installation
 
-<h4>How do we complete this project?</h4>
-<h5>JS:</h5>
-<ul>
-<li>Create a demo produts in json (later on with  an api) each with name,picture,price,etc. (div>ul> li for each item-product)
-</li>
-<li>Add a button to each list item(For affilation link / add to basket purposes)</li>
-<li>Create a list of products 4 in each row, 5 rows</li>
-<li>Add back - next button to toggle between pagesd</li>
+This project will mostly be done in plain JavaScript. However, we'll need some help along the way. Writing tests is already hard enough, let's not try to write them without frameworks. For writing unit tests, we'll use Karma and Jasmine.
 
-</ul> 
+This can easily be done by first installing the latest version of [NodeJS](https://nodejs.org). Once you have installed it, you can verify it is correctly installed by running
 
-<h5>HTML:</h5>
-1. Create navbar for diff catgoeries
+```
+node -v
+```
 
+You should now see the version of your current Node installation.
 
-<h4>Example:</h4>
-<a href="https://gitter.im/danydin/Lobby" target="_blank"><img src="http://i.imgur.com/NdUM5qd.png" alt="" data-canonical-src="http://i.imgur.com/NdUM5qd.png" style="max-width:50%;"></a>
+Now you can install the necessary dependencies for the project with
+
+```
+npm install
+```
+
+You are now ready to go!
+
+## Project Details
+
+### How do we complete this project?
+
+#### JS:
+* Create a demo products in json (later on with  an api) each with name,picture,price,etc. (div>ul> li for each item-product)
+* Add a button to each list item (For affilation link / add to basket purposes)
+* Create a list of products 4 in each row, 5 rows
+* Add back - next button to toggle between pages
+
+#### HTML:
+* Create navbar for diff catgoeries
+
+#### Example:
+![Mockup](http://i.imgur.com/NdUM5qd.png "Product Portal Mockup")
