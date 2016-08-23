@@ -25,6 +25,10 @@ To run local server, run
 ```
 node server.js
 ```
+or
+```
+npm start
+```
 
 The default server is `http://localhost:3000`.
 
