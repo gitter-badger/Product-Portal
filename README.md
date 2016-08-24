@@ -1,5 +1,7 @@
 # Product-Portal
 
+[![Join the chat at https://gitter.im/product-portal/style.css](https://badges.gitter.im/product-portal/style.css.svg)](https://gitter.im/product-portal/style.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Installation
 
 This project will mostly be done in plain JavaScript. However, we'll need some help along the way. Writing tests is already hard enough, let's not try to write them without frameworks. For writing unit tests, we'll use Karma and Jasmine.
